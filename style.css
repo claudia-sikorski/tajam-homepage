@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border-bottom.one {
+    border-bottom: solid #66d7cb;
+    width: 60px;
+}
+
+.border-bottom.two {
+    border-bottom: solid #ccccd0;
+    width: 60px;
+}
+
+button {
+    cursor: pointer;
+}
