@@ -165,7 +165,7 @@ figcaption {
     font-weight: bold;
     font-size: 22px;
     color: #413d4b;
-    padding-top: 72px;
+    padding-top: 50px;
     padding-bottom: 15px;
 }
 
@@ -192,6 +192,7 @@ figcaption {
 
 .expertise-icon {
     height: 40px;
+    margin-top: 35px;
 }
 
 #section-3 .expertise-header {
@@ -210,4 +211,37 @@ figcaption {
     color: #333333;
     padding: 0vw 1.5vw;
     margin-bottom: 40px;
+}
+
+#expertise-border-1 {
+    border-bottom: solid;
+    border-color: #ebebeb;
+}
+
+#expertise-border-2 {
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-color: #ebebeb;
+}
+
+#expertise-border-3 {
+    border-bottom: solid;
+    border-color: #ebebeb;
+}
+
+#expertise-border-4 {
+    border-left: solid;
+    border-right: solid;
+    border-color: #ebebeb;
+}
+
+#space {
+    height: 50px;
+}
+
+/* Team section*/
+
+#section-4 {
+    background-image: url("design-assets/bgk-header.png");
 }
