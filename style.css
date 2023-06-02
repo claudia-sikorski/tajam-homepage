@@ -37,7 +37,7 @@ button {
     cursor: pointer;
 }
 
-/* Header section */ 
+/* Header section */
 
 header {
     background-image: url("design-assets/bgk-header.png");
@@ -100,7 +100,7 @@ header section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 header section h1 {
@@ -118,7 +118,7 @@ header section p {
     line-height: 24px;
 }
 
-/* OUR STORY */ 
+/* OUR STORY */
 
 #section-1 {
     display: flex;
@@ -367,7 +367,7 @@ input, textarea {
     color:  #15aa9e;
     border-color: #15aa9e;
     border-radius: 0%;
-    
+
 }
 
 /* // right */
@@ -393,6 +393,7 @@ input, textarea {
 
 footer{
     background-image: url("design-assets/bgk-footer.png");
+    background-size: cover;
     color: white;
     padding: 3%;
     justify-items: center;
@@ -418,14 +419,14 @@ footer{
 #footer-logo1 {
     display: flex;
     align-items: center;
-    
+
 }
 
 footer p {
     display: flex;
     flex-direction: column;
     line-height: 24px;
-    width: 300px; 
+    width: 300px;
 }
 
 footer h3 {
@@ -441,13 +442,14 @@ footer h3 {
 .stay-in-touch {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 }
 
 #mygps {
     width: 15px;
     height: 20px;
     margin-right: 15px;
-    
+
 }
 
 #phone351 {
@@ -469,14 +471,24 @@ footer input {
     width: 80px;
     height: 39px;
     border: none;
+    background-color: rgb(255,255,255,0.5);
+    margin-left: 10px;
 }
+
+#social-media {
+    margin-top: 10px;
+}
+
+#social-media a {
+    margin-right: 5px;
+}
+
               /* Legal */
 
 #impressum {
     margin-top: 70px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 36px;
+    justify-content: space-around;
 }
 
 #legal ul {
@@ -488,7 +500,7 @@ footer input {
 #legal ul li a {
     text-decoration: none;
     color: white;
-    margin-right: 15px; 
+    margin-right: 15px;
 }
 
 #legal ul li a:hover {
@@ -497,7 +509,6 @@ footer input {
 
 #copyright p {
     text-align: right;
-    margin-right: 40px;
 }
 
 
