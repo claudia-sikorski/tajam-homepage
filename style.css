@@ -460,6 +460,12 @@ footer h3 {
 
 footer input {
     background-color: transparent;
+    border: 1px solid white;
+    height: 45px;
+}
+
+footer input::placeholder {
+    color: white;
 }
 
 #newsletter {
@@ -468,8 +474,8 @@ footer input {
 }
 
 #newsletter button {
-    width: 80px;
-    height: 39px;
+    width: 100px;
+    height: 45px;
     border: none;
     background-color: rgb(255,255,255,0.5);
     margin-left: 10px;
